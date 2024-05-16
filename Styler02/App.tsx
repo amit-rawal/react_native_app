@@ -3,6 +3,7 @@ import React from 'react'
 import FlatCards from './Components/FlatCards'
 import ElevatedCards from './Components/ElevatedCards'
 import FancyCard from './Components/FancyCard'
+import ActionCard from './Components/ActionCard'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
          <FlatCards/>
          <ElevatedCards/>
          <FancyCard/>
+         <ActionCard/>
          </View>
       </ScrollView>
     </SafeAreaView>
